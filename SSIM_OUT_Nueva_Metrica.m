@@ -45,7 +45,7 @@ for j=1:10
   
 %N1=randn(size(I));
 %N1=im2double(N1);   
-noiseim=I+sqrt(1/j^2)*N1;% agrega ruido con varianza variable
+noiseim=I+sqrt(1/j^2)*N1;% Agrega ruido con varianza variable
 
 % ssim(I,noiseim)
 prefixedimage =covid(h1,h2,N1);
